@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="63.618218">
+<testcase classname="Perform Login action on the homepage for an existing user using login details and check the validation." name="To check whether Login is successful with Valid Credentials" time="21.704818">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User enters his valid Username and valid Password......................passed
+Then Login Successful.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Perform Login action on the homepage for an existing user using login details and check the validation." name="To check whether validation is working with right username but wrong password" time="12.201852">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User enters his valid Username and invalid Password....................passed
+Then Login is unsuccessful..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Perform Login action on the homepage for an existing user using login details and check the validation." name="To check whether validation is working with wrong username but right password" time="14.149302">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User enters his invalid Username and valid Password....................passed
+Then Login is unsuccessful..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Perform Login action on the homepage for an existing user using login details and check the validation." name="To check whether validation is working with wrong username and wrong password" time="15.562246">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User enters his invalid Username and invalid Password..................passed
+Then Login is unsuccessful..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22779075440,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "LoginValidation.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "To check whether Login is successful with Valid Credentials",
+        "description": "",
+        "id": "perform-login-action-on-the-homepage-for-an-existing-user-using-login-details-and-check-the-validation.;to-check-whether-login-is-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9805899930,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#provide valid username and password"
+              }
+            ],
+            "line": 9,
+            "name": "User enters his valid Username and valid Password",
+            "match": {
+              "location": "LoginValidation.user_enters_his_valid_UserName_and_valid_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 793215095,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login Successful",
+            "match": {
+              "location": "LoginValidation.login_Successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Perform Login action on the homepage for an existing user using login details and check the validation.",
+    "description": "",
+    "id": "perform-login-action-on-the-homepage-for-an-existing-user-using-login-details-and-check-the-validation.",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

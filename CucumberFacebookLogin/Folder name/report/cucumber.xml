@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="1317.792766">
+<testcase classname="Perform Login action on the homepage for an existing user using login details and check the validation." name="To check whether Login is successful with Valid Credentials" time="9.25571">
+<failure message="org.openqa.selenium.WebDriverException: Failed to decode response from marionette&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'BLAZETOP', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\suren\AppData\Local\Temp\rust_mozprofile.WB2p3S9oQ0xF, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=10.0, moz:processID=4476.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 7443bfc1-c809-4308-9820-fd6bf1739d9b&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)&#13;&#10;&#9;at steps.LoginValidation.user_is_on_Home_Page(LoginValidation.java:24)&#13;&#10;&#9;at ✽.Given User is on Home Page(Login.feature:5)&#13;&#10;"><![CDATA[Given User is on Home Page..................................................failed
+When User enters his valid Username and valid Password......................skipped
+Then Login Successful.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLAZETOP', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\suren\AppData\Local\Temp\rust_mozprofile.WB2p3S9oQ0xF, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=10.0, moz:processID=4476.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 7443bfc1-c809-4308-9820-fd6bf1739d9b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)
+	at steps.LoginValidation.user_is_on_Home_Page(LoginValidation.java:24)
+	at ✽.Given User is on Home Page(Login.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Perform Login action on the homepage for an existing user using login details and check the validation." name="To check whether validation is working with right username but wrong password" time="1269.160178">
+<failure message="org.openqa.selenium.WebDriverException: connection refused&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'BLAZETOP', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: stack backtrace:&#10;   0:           0x4bd56f - &lt;no info&gt;&#10;   1:           0x4bdcc9 - &lt;no info&gt;&#10;   2:           0x43dc4d - &lt;no info&gt;&#10;   3:           0x444a24 - &lt;no info&gt;&#10;   4:           0x44888f - &lt;no info&gt;&#10;   5:           0x4207bc - &lt;no info&gt;&#10;   6:           0x405e47 - &lt;no info&gt;&#10;   7:           0x6db3d9 - &lt;no info&gt;&#10;   8:           0x417847 - &lt;no info&gt;&#10;   9:           0x6d56d3 - &lt;no info&gt;&#10;  10:     0x7ffdb8738102 - BaseThreadInitThunk&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:108)&#13;&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:104)&#13;&#10;&#9;at steps.LoginValidation.user_is_on_Home_Page(LoginValidation.java:23)&#13;&#10;&#9;at ✽.Given User is on Home Page(Login.feature:5)&#13;&#10;"><![CDATA[Given User is on Home Page..................................................failed
+When User enters his valid Username and invalid Password....................skipped
+Then Login is unsuccessful..................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: connection refused
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLAZETOP', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4bd56f - <no info>
+   1:           0x4bdcc9 - <no info>
+   2:           0x43dc4d - <no info>
+   3:           0x444a24 - <no info>
+   4:           0x44888f - <no info>
+   5:           0x4207bc - <no info>
+   6:           0x405e47 - <no info>
+   7:           0x6db3d9 - <no info>
+   8:           0x417847 - <no info>
+   9:           0x6d56d3 - <no info>
+  10:     0x7ffdb8738102 - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:104)
+	at steps.LoginValidation.user_is_on_Home_Page(LoginValidation.java:23)
+	at ✽.Given User is on Home Page(Login.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Perform Login action on the homepage for an existing user using login details and check the validation." name="To check whether validation is working with wrong username but right password" time="23.892426">
+<failure message="org.openqa.selenium.WebDriverException: Failed to decode response from marionette&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'BLAZETOP', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\suren\AppData\Local\Temp\rust_mozprofile.c6WtZaJ0WeIY, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=10.0, moz:processID=6740.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 3573fc44-2994-4f15-ba04-0f83f60c3126&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)&#13;&#10;&#9;at steps.LoginValidation.user_is_on_Home_Page(LoginValidation.java:24)&#13;&#10;&#9;at ✽.Given User is on Home Page(Login.feature:5)&#13;&#10;"><![CDATA[Given User is on Home Page..................................................failed
+When User enters his invalid Username and valid Password....................skipped
+Then Login is unsuccessful..................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'BLAZETOP', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\suren\AppData\Local\Temp\rust_mozprofile.c6WtZaJ0WeIY, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=10.0, moz:processID=6740.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 3573fc44-2994-4f15-ba04-0f83f60c3126
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)
+	at steps.LoginValidation.user_is_on_Home_Page(LoginValidation.java:24)
+	at ✽.Given User is on Home Page(Login.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="Perform Login action on the homepage for an existing user using login details and check the validation." name="To check whether validation is working with wrong username and wrong password" time="15.484452">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User enters his invalid Username and invalid Password..................passed
+Then Login is unsuccessful..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
